@@ -2,7 +2,7 @@
 
 # Practical Introduction to Llama 2 Fine-Tuning
 
-Welcome to the GitHub repository for fine-tuning the Llama 2 model using QLoRA on a T4 GPU. This project demonstrates how to fine-tune a large language model with limited VRAM, making efficient use of advanced parameter-efficient fine-tuning techniques.
+In this Project I worked on fine-tuning the Llama 2 model using QLoRA on a T4 GPU on Google Colab. This project demonstrates how to fine-tune a large language model with limited VRAM, making efficient use of advanced parameter-efficient fine-tuning techniques.
 
 ## Overview
 
