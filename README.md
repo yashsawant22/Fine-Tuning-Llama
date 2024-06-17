@@ -43,7 +43,7 @@ from transformers import AutoModelForCausalLM
 model = AutoModelForCausalLM.from_pretrained('NousResearch/Llama-2-7b-chat-hf', use_4bit=True)
 ```
 
-##Training Configuration
+## Training Configuration
 Configure the training parameters such as batch size, number of epochs, and learning rate:
 
 ```python
@@ -60,8 +60,8 @@ training_args = TrainingArguments(
 ## Usage
 After training, use the model to generate text or for other NLP tasks:
 
-python
-```
+```python
+
 from transformers import pipeline
 
 generator = pipeline('text-generation', model='path_to_fine_tuned_model')
